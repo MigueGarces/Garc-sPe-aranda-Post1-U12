@@ -3,7 +3,6 @@ from qiskit_aer import AerSimulator
 from qiskit.visualization import plot_histogram
 import matplotlib.pyplot as plt
 
-
 def bell_state_experiment(shots: int = 1024):
     """
     Prepara el estado de Bell |Φ+> y mide los dos qubits.
